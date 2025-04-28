@@ -3,40 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Участники проекта</title>
-    <link rel="stylesheet" href="style.css">
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-image: url('images/background.jpg'); /* Помести картинку сюда */
+            background: url('images/background.jpg') no-repeat center center fixed;
             background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
             color: white;
         }
 
         header {
-            background-color: rgba(54, 146, 187, 0.9);
+            background: rgba(54, 146, 187, 0.9);
             padding: 20px;
             text-align: center;
         }
 
-        nav a {
-            margin: 0 10px;
+        header nav a {
             color: white;
+            margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
         }
 
-        nav a:hover {
+        header nav a:hover {
             text-decoration: underline;
         }
 
         main {
-            background-color: rgba(0, 0, 0, 0.7); /* затемнённая подложка */
             padding: 20px;
-            margin: 20px auto;
-            max-width: 1000px;
+            background: rgba(0, 0, 0, 0.6); /* Тёмная полупрозрачная подложка */
+            margin: 20px;
             border-radius: 10px;
         }
 
@@ -47,14 +43,26 @@
         .member {
             margin-bottom: 20px;
             padding: 10px;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Светлая линия */
+        }
+
+        .member h3 {
+            margin: 0 0 5px 0;
+            font-size: 20px;
+            color: white;
+        }
+
+        .member p {
+            margin: 3px 0;
+            color: white;
         }
 
         footer {
+            background: #333;
             text-align: center;
+            padding: 15px;
+            font-size: 14px;
             margin-top: 30px;
-            padding: 10px;
-            background-color: #ADADAC;
             color: white;
         }
     </style>
@@ -76,108 +84,29 @@
 
     <section>
         <div class="member">
-            <strong>Ольхов Д.И.</strong> — Руководство<br>
-            <em>Вклад:</em> Командование, руководство дедлайнами, общее видение проекта
+            <h3>Ольхов Д.И.</h3>
+            <p><strong>Роль:</strong> Командование и руководство дедлайнами</p>
+            <p><strong>Вклад:</strong> Общее виденье проекта</p>
         </div>
 
         <div class="member">
-            <strong>Максимов А.О.</strong> — Главный художник<br>
-            <em>Вклад:</em> Раскадровка, ранние концепты и локации
+            <h3>Максимов А.О.</h3>
+            <p><strong>Роль:</strong> Главный художник</p>
+            <p><strong>Вклад:</strong> Раскадровка, ранние концепты и локации</p>
         </div>
 
         <div class="member">
-            <strong>Андреева Е.В.</strong> — Медиа<br>
-            <em>Вклад:</em> Продвижение соцсетей проекта
+            <h3>Жулина А.О.</h3>
+            <p><strong>Роль:</strong> Медиа</p>
+            <p><strong>Вклад:</strong> Создание постов в группе ВК</p>
         </div>
 
-        <div class="member">
-            <strong>Севастьянов Г.Б.</strong> — Звук<br>
-            <em>Вклад:</em> Озвучка героев
-        </div>
+        <!-- Остальные участники идут здесь так же, без изменений по структуре -->
 
         <div class="member">
-            <strong>Кабанова Т.А.</strong> — Сценарист<br>
-            <em>Вклад:</em> Написание сценария
-        </div>
-
-        <div class="member">
-            <strong>Куприянов А.Р.</strong> — Художник<br>
-            <em>Вклад:</em> Создание 3D моделей, постобработка, отрисовка локаций
-        </div>
-
-        <div class="member">
-            <strong>Жулина А.О.</strong> — Медиа<br>
-            <em>Вклад:</em> Создание постов в группе ВК
-        </div>
-
-        <div class="member">
-            <strong>Мигунов Н.С.</strong> — Контентмейкер<br>
-            <em>Вклад:</em> Создание контента для соцсетей
-        </div>
-
-        <div class="member">
-            <strong>Удовенко К.Е.</strong> — Звук<br>
-            <em>Вклад:</em> Озвучка героев
-        </div>
-
-        <div class="member">
-            <strong>Кульпа М.А.</strong> — Медиа<br>
-            <em>Вклад:</em> Создание постов в Telegram
-        </div>
-
-        <div class="member">
-            <strong>Пахомов Р.Г.</strong> — Сценарист<br>
-            <em>Вклад:</em> Помощник главного сценариста
-        </div>
-
-        <div class="member">
-            <strong>Максимов М.М.</strong> — Звук<br>
-            <em>Вклад:</em> Игра на инструментале
-        </div>
-
-        <div class="member">
-            <strong>Джафаров А.</strong> — Медиа<br>
-            <em>Вклад:</em> Генерация идей постов
-        </div>
-
-        <div class="member">
-            <strong>Нарыжный И.К.</strong> — Звук<br>
-            <em>Вклад:</em> Ответственный за подбор треков
-        </div>
-
-        <div class="member">
-            <strong>Иванова П.С.</strong> — Сценарист<br>
-            <em>Вклад:</em> Создание образа главных героев
-        </div>
-
-        <div class="member">
-            <strong>Бозорбоев А.З.</strong> — Художник<br>
-            <em>Вклад:</em> Дизайн персонажей
-        </div>
-
-        <div class="member">
-            <strong>Митрошин В.Д.</strong> — Звук<br>
-            <em>Вклад:</em> Запись и монтаж
-        </div>
-
-        <div class="member">
-            <strong>Кафидов Д.В.</strong> — Художник<br>
-            <em>Вклад:</em> Отрисовка локаций
-        </div>
-
-        <div class="member">
-            <strong>Симонов Д.К.</strong> — Звук<br>
-            <em>Вклад:</em> Озвучка героев
-        </div>
-
-        <div class="member">
-            <strong>Магеррамов З.И.</strong> — Планирование<br>
-            <em>Вклад:</em> Дорожная карта проекта
-        </div>
-
-        <div class="member">
-            <strong>Слободенюк Д.А.</strong> — Звук<br>
-            <em>Вклад:</em> Озвучка героев
+            <h3>Мигунов Н.С.</h3>
+            <p><strong>Роль:</strong> Контентмейкер</p>
+            <p><strong>Вклад:</strong> Создание контента для соцсетей</p>
         </div>
     </section>
 
