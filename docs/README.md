@@ -128,7 +128,20 @@ def open_file():
 open_button = Button(root, text="Открыть", command=open_file)
 open_button.grid()
 ```
+### 💻 Код
 ![Снимок экрана (996)](https://github.com/user-attachments/assets/e747a59a-2556-4b7e-920c-5e7acfc6fb01)
+
+### 💻 Окно текстового редактора
+![Снимок экрана (992)](https://github.com/user-attachments/assets/92b34183-8a0a-4cb2-b189-dce45803ff5a)
+
+### 💻 Окно текстового редактора с введённым текстом 
+![Снимок экрана (993)](https://github.com/user-attachments/assets/912ca322-b2cf-47de-8780-dbf6e6183838)
+
+### 💻 Выбор шрифта 
+![Снимок экрана (994)](https://github.com/user-attachments/assets/1e0014b5-7027-4acc-9fba-35a1f9fa67ad)
+
+### 💻 Отрыть файл 
+![Снимок экрана (995)](https://github.com/user-attachments/assets/032f5e62-97f5-426c-9b74-58ba40edf7d3)
 
 # Документация
 
