@@ -155,5 +155,4 @@ open_button.grid()
 1.	Метанит. Tkinter – создание графических интерфейсов на Python [Электронный ресурс]. – Режим доступа: https://metanit.com/python/tkinter/ (дата обращения: 05.05.2025).
 2.	Create a Simple Python Text Editor [Электронный ресурс] // Instructables. – Режим доступа: https://www.instructables.com/Create-a-Simple-Python-Text-Editor/ (дата обращения: 05.05.2025).
 3.	Python GUI Text Editor With Tkinter [Видеоресурс] / YouTube, канал Codemy.com. – URL: https://www.youtube.com/watch?v=xqDonHEYPgA (дата обращения: 05.05.2025).
-4.	https://online.mospolytech.ru/course/view.php?id=15065
-5.	https://sky.pro/wiki/html/osnovy-html-struktura-html-dokumenta/
+
