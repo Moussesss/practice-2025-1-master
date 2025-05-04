@@ -128,6 +128,8 @@ def open_file():
 open_button = Button(root, text="Открыть", command=open_file)
 open_button.grid()
 ```
+![Снимок экрана (996)](https://github.com/user-attachments/assets/e747a59a-2556-4b7e-920c-5e7acfc6fb01)
+
 # Документация
 
 - Папка для размещения документации по практике в формате Markdown.
